@@ -1,4 +1,5 @@
-![PL ICON](https://github.com/portfolioland/portfolioland/assets/174016628/b0b23f98-e26a-424a-b549-b9dabfd4e1a9)# Portfolioland
+
+![PLICON](https://github.com/portfolioland/portfolioland/assets/174016628/542d533c-9b02-4f87-b0e0-da4278f87a0d)
 
 ## Disclaimer: The Repository is a Prototyp and does not scale infinitly.
 
