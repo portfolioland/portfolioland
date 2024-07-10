@@ -1,8 +1,6 @@
-# Portfolioland
+![PL ICON](https://github.com/portfolioland/portfolioland/assets/174016628/b0b23f98-e26a-424a-b549-b9dabfd4e1a9)# Portfolioland
 
-![PLICON](https://github.com/portfolioland-a-1/portfolioland/assets/170711089/26815579-c62e-4c6e-a24c-7873985d8e72)
-
-## Disclaimer: The Repository is a Prototyp
+## Disclaimer: The Repository is a Prototyp and does not scale infinitly.
 
 Welcome to **Portfolioland**, a web application designed to empower students of the Kunsthochschule Kassel to independently present their works on a dedicated website.
 
