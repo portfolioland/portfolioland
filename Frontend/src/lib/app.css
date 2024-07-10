@@ -1,0 +1,82 @@
+
+:root {
+    //colors
+    --accent-color-dark: rgba(75, 223, 255, 0.4);
+    --bg-bright: rgb(241, 240, 240);
+    --bg-dark: rgb(0 0 0);
+    --bg-light: rgb(241, 240, 240);
+    --color-error: #e31c3d;
+    --grey: #ccc;
+    --text-light: #0c0c20;
+    --text-light-100: #0c0c20b1;
+
+    --white: white;
+    --primary: #A32EFF;
+    --secondary: #FFA92C;
+    --tertiary: #4bffdf;
+    --error: #e31c3d;
+    --error-light: #e31c3d8b;
+
+    //Buttons
+    --button-border: solid 0.1rem var(--text-light);
+
+    //Focusstyling
+    --focus-outline: 0.1rem solid var(--tertiary);
+}
+:global(html) {
+    width: 100vw;
+    color: var(--text-light);
+    background: var(--bg-bright);
+    color: #e31c3d;
+
+}
+
+
+.active{
+    opacity: 1;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 1000ms;
+}
+.active:hover{
+    opacity: 1;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 1000ms;
+}
+button , input {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.25rem;
+
+    color: var(--text-light);
+    cursor: pointer;
+
+    padding: 0.3rem;
+    border: 0.1rem solid var(--text-light);
+    border-radius: 20rem;
+
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 1000ms;
+    &:hover {
+        outline: 0.2rem solid var(--tertiary);
+        transition-property: all;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-duration: 1000ms;
+    }
+    &:focus {
+        outline: 0.1rem solid var(--tertiary);
+    }
+    &:active { 
+       
+        transform: scale(0.98); 
+        /* Scaling button to 0.98 to its original size */ 
+        box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+        /* Lowering the shadow */ 
+    } 
+}
+
